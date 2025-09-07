@@ -1,37 +1,31 @@
-# smart_casheir_app
-"Smart Cashier – AI-powered POS system (Python + SQL Server + Tkinter) with role-based access, invoice archiving, and interactive sales analytics (demo with screenshots only)."
-
-
 # Smart Cashier (AI-Powered POS)
 
-📌 **عرض توضيحي فقط – لا يحتوي على الكود المصدري**
+📌 **Demo repository – contains screenshots and project description only (no source code available).**
 
-هذا المشروع عبارة عن برنامج كاشير ذكي بواجهة رسومية مبنية بلغة Python (Tkinter) مع قاعدة بيانات SQL Server، ودمج تقنيات الذكاء الاصطناعي لتحليل المبيعات والمخزون.
+This project is a **smart cashier (POS) application** built with **Python (Tkinter)** and **SQL Server**, enhanced with **AI features** for sales and inventory analysis.
 
-## المزايا
-- 💵 عمليات البيع والشراء والمرتجعات
-- 📊 تقارير ورسوم بيانية فورية (Matplotlib)
-- 👤 صلاحيات ديناميكية: إضافة/حذف مستخدمين وتحديد الصلاحيات
-- 📂 أرشفة الفواتير لتقليل حجم البيانات
-- 🤖 ذكاء اصطناعي مدمج:
-                                                                                                                                                                      - **Offline:** عبر Ollama 3 لتحليل المنتجات بدون إنترنت
-                                                                                                                                                                         - **Online:** عبر OpenAI API لتحليل متقدم واقتراحات
-- 🎤 أوامر صوتية ونصية للتحليل المباشر (مثال: "أكتر منتج اتباع الشهر ده؟")
+## 🔑 Features
+- 💵 Sales, purchases, and returns operations
+- 📊 Full reports and charts (Matplotlib)
+- 👤 Dynamic role-based access: add/remove users and set permissions
+- 📂 Invoice archiving to optimize database size
+- 🤖 Integrated AI Assistant:
+  - **Offline:** via Ollama 3 (LLM model on device, no internet required)
+  - **Online:** via OpenAI API for advanced analytics and insights
+- 🎤 Voice & text queries for interactive data analysis  
+  *(Example: “What was the best-selling product this month?”)*
 
-##التقنيات
-                                                                                                                  Python (Tkinter) – SQL Server – PyODBC – Matplotlib – Threading – PyInstaller – Ollama – OpenAI API
+## ⚙️ Tech Stack
+Python (Tkinter) – SQL Server – PyODBC – Matplotlib – Threading – PyInstaller – Ollama – OpenAI API
 
-## لقطات شاشة
-                                                                                                                                                                      ![action](assets/screenshots/action.jpeg)
-                                                                                                                                                                           
-                                                                                                                                                                             ![ai](assets/screenshots/ai.jpeg)
-                                                                                                                                                                ![Reports](assets/screenshots/code_overview.jpeg)                                                                                                                                                                    ![dashboard](assets/screenshots/dashboard.jpeg)
+## 📸 Screenshots
+![Dashboard](assets/screenshots/dashboard.jpeg)  
+![Sales & Returns](assets/screenshots/action.jpeg)  
+![AI Assistant](assets/screenshots/ai.jpeg)  
+![Reports](assets/screenshots/code_overview.jpeg)  
 
+## 📌 Note
+The source code is not shared publicly to protect development rights.  
+This repository is for **demonstration purposes** only (screenshots + project description).  
 
-## ملاحظة
-
-الكود المصدري غير متاح للتحميل لحماية حقوق التطوير.  
-للاطلاع على تفاصيل المشروع أو تجربة النسخة: برجاء التواصل معي على [LinkedIn](https://www.linkedin.com/in/abdelati88).
-
-الكود المصدري غير متاح للتحميل لحماية حقوق التطوير.  
-للاطلاع على تفاصيل المشروع أو تجربة النسخة: برجاء التواصل معي على [LinkedIn](https://www.linkedin.com/in/your-profile/).
+For collaboration, inquiries, or to test the full version, feel free to contact me on [LinkedIn](https://www.linkedin.com/in/abdelati88/).
